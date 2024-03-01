@@ -15,7 +15,7 @@ export default function Home() {
    <div>
       <h1 className="my-6 text-2xl text-center">ミミコ ID・パスワード一覧</h1>
 
-      <div className="flex flex-wrap gap-6 m-4">
+      <div className="flex flex-wrap justify-center gap-6 m-4">
         <article className={styles.parent}>
           <Link href="./eneos" className="block flex flex-col items-center gap-2 w-full h-full">
           <Image src={Pic01} alt="pic"></Image>
